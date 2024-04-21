@@ -99,6 +99,7 @@ header {
   justify-content: center;
 }
 .categories-container {
+  border-bottom: 1px solid rgb(232, 226, 226);
   margin: 40px 0px;
   width: 100%;
   display: flex;
@@ -114,4 +115,66 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+footer {
+  background-color: rgba(243, 240, 240, 0.815);
+  height: 480px;
+}
+.footer-container {
+  height: 420px;
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.shopping-list,
+.Links {
+  height: 400px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+}
+
+.quotation {
+  color: rgba(16, 16, 16, 0.65);
+}
+
+.menu span {
+  margin-top: 15px;
+  color: lightslategray;
+  cursor: pointer;
+}
+
+.social-media {
+  display: flex;
+  flex-direction: column;
+}
+
+.inner-social-media {
+  margin-top: 15px;
+  display: flex;
+}
+
+.logos {
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+.logos i {
+  color: lightslategray;
+}
+
+.copywrite-container {
+  font-size: 1.15rem;
+  color: rgb(97, 112, 128);
+  padding: 20px 20px 20px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.copywrite-container span {
+  color: rgb(27, 134, 201);
+  font-size: 1.2rem;
+  font-weight: 700;
 }
